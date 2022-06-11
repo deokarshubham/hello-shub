@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: busniess-service
+server:
+   port: 5050
+kafka:
+   consumer:
+      topics: notificationform
+      beanCreation: false
+   producer:
+      beanCreation: true
